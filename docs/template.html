@@ -2,25 +2,23 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Basscraft</title>
-  <meta name="author" content="Brent Jackson">
-  <meta name="description" content="Basscss theme">
+  <title><%= title %></title>
+  <meta name="author" content="<%= obj.author %>">
+  <meta name="description" content="<%= obj.description %>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <meta name="keywords" content="css,oocss,basscss,theme,merriweather,roboto,colors">
-  
-  
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,700|Merriweather:400,700">
-  
-    <link rel="stylesheet" href="css/basscraft.min.css">
-  
+  <% if (obj.keywords.length) { %>
+  <meta name="keywords" content="<%= obj.keywords.join() %>">
+  <% } %>
+  <% obj.stylesheets.map(function(stylesheet) { %>
+    <link rel="stylesheet" href="<%= stylesheet %>">
+  <% }) %>
 </head>
 <body class="fuchsia">
 
   <div class="container px2">
 
     <header class="mt3 mb2 py2 border-bottom">
-      <h1 class="sans h4 caps m0">Basscraft</h1>
+      <h1 class="sans h4 caps m0"><%= title %></h1>
     </header>
 
     <section id="intro" class="py3 mt4">
@@ -174,7 +172,7 @@
     <footer class="h6 bold caps py2 mt4 border-top">
       <div class="flex flex-baseline flex-wrap mxn1">
         <a href="//jxnblk.com/basscraft" class="button button-narrow button-small button-transparent">Basscraft</a>
-        <div class="px1">v1.0.0</div>
+        <div class="px1">v<%= version %></div>
         <div class="flex-auto"></div>
         <div class="px1">
           Made by
@@ -203,7 +201,9 @@
     </select>
   </div>
 
-  
+  <% obj.javascripts.map(function(script) { %>
+    <script src="<%= script %>"></script>
+  <% }) %>
 
   <script>
     var body = document.body;
