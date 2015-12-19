@@ -163,13 +163,13 @@ td { vertical-align: top }
 /* Basscss Base Typography */
 
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.25;
   margin-top: 1em;
@@ -259,7 +259,7 @@ h6, .h6 { font-size: 14px; font-size: .875rem }
 .full-width { width: 100% }
 /* Basscss Utility Typography */
 
-.bold    { font-weight: bold; font-weight: bold }
+.bold    { font-weight: 600; font-weight: 600 }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: .2em; }
@@ -1004,7 +1004,7 @@ input[type=range] {
   box-shadow: none;
 }
 
-.button-transparent:hover:before, 
+.button-transparent:hover:before,
 .button-transparent:focus:before {
   opacity: .09375;
 }
@@ -1012,7 +1012,7 @@ input[type=range] {
 .button-transparent:focus {
   outline: none;
   border-color: transparent;
-  box-shadow: 0 0 0 2px; 
+  box-shadow: 0 0 0 2px;
 }
 
 .button-transparent:active,
@@ -1166,7 +1166,7 @@ input[type=range] {
 
 
 .serif { font-family: 'Merriweather', Georgia, serif }
-.sans  { font-family: 'Roboto', Helvetica, sans-serif }
+.sans  { font-family: 'Source Sans Pro', Helvetica, sans-serif }
 
 .fuchsia a:not(.button) { color: #f012be }
 .maroon a:not(.button) { color: #85144b }
@@ -1214,4 +1214,3 @@ input[type=range] {
 .checkbox-light,
 .radio-light {}
 */
-

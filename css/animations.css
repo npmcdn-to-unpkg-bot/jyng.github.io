@@ -1,0 +1,15 @@
+.animated {
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.blur {
+  animation-name: blur;
+  -webkit-animation-name:blur:
+}
+@-webkit-keyframes blur {
+    0% { -webkit-filter: blur(32px);}
+    100% { -webkit-filter: blur(0px);}
+
+}
