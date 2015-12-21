@@ -227,7 +227,36 @@ h3, .h3 { font-size: 24px; font-size: 1.5rem }
 h4, .h4 { font-size: 18px; font-size: 1.125rem }
 h5, .h5 { font-size: 16px; font-size: 1rem }
 h6, .h6 { font-size: 14px; font-size: .875rem }
+/*Basscss Responsive Typography*/
+@media (min-width:40em){
+  .sm-h0 {  font-size: 48px;  font-size: 3rem }
+  .sm-h1 { font-size: 36px; font-size: 2.25rem }
+  .sm-h2 { font-size: 28px; font-size: 1.75rem }
+  .sm-h3 { font-size: 24px; font-size: 1.5rem }
+  .sm-h4 { font-size: 18px; font-size: 1.125rem }
+  .sm-h5 { font-size: 16px; font-size: 1rem }
+  .sm-h6 { font-size: 14px; font-size: .875rem }
+}
 
+@media (min-width:52em){
+  .md-h0 {  font-size: 48px;  font-size: 3rem }
+  .md-h1 { font-size: 36px; font-size: 2.25rem }
+  .md-h2 { font-size: 28px; font-size: 1.75rem }
+  .md-h3 { font-size: 24px; font-size: 1.5rem }
+  .md-h4 { font-size: 18px; font-size: 1.125rem }
+  .md-h5 { font-size: 16px; font-size: 1rem }
+  .md-h6 { font-size: 14px; font-size: .875rem }
+}
+
+@media (min-width:60em){
+  .lg-h0 {  font-size: 48px;  font-size: 3rem }
+  .md-h1 { font-size: 36px; font-size: 2.25rem }
+  .md-h2 { font-size: 28px; font-size: 1.75rem }
+  .md-h3 { font-size: 24px; font-size: 1.5rem }
+  .md-h4 { font-size: 18px; font-size: 1.125rem }
+  .md-h5 { font-size: 16px; font-size: 1rem }
+  .md-h6 { font-size: 14px; font-size: .875rem }
+}
 .list-reset {
   list-style: none;
   padding-left: 0;
