@@ -930,7 +930,7 @@ a:hover {
   background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-   -webkit-animation: AnimationName 5s ease-out infinite;
+   -webkit-animation: AnimationName 3s ease-out infinite;
   }
 
   @-webkit-keyframes AnimationName {
