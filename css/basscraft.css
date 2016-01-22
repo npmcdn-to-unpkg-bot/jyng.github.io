@@ -1274,6 +1274,13 @@ input[type=range] {
   border-width: 2px;
   border-color: inherit;
 }
+.border:hover {
+  text-decoration: none;
+  border-image: -webkit-linear-gradient(left, #b134bf, #3bb1be, #E1CC90, #FF945C, #EC008C);
+  border-image: -o-linear-gradient(left, #b134bf, #3bb1be, #E1CC90, #FF945C, #EC008C);
+  border-image: linear-gradient(left, #b134bf, #3bb1be, #E1CC90, #FF945C, #EC008C);
+  border-image-slice: 1;
+  }
 
 .border-top {
   border-top-style: solid;
