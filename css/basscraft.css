@@ -541,12 +541,12 @@ h6, .h6 { font-size: 14px; font-size: .875rem }
 
 .mx-auto { margin-left: auto; margin-right: auto; }
 .p1  { padding: 8px; padding: .5rem }
-.py1 { padding-top: 8px; padding-top: .5rem; padding-bottom: 8px; padding-bottom: .5rem }
-.px1 { padding-left: 8px; padding-left: .5rem; padding-right: 8px; padding-right: .5rem }
+.py1 { padding-top: 8px; padding-top: .5rem;; padding-bottom: .5rem }
+.px1 { padding-left: 8px; padding-left: .5rem; padding-right: .5rem }
 
-.p2  { padding: 16px; padding: 1rem }
-.py2 { padding-top: 16px; padding-top: 1rem; padding-bottom: 16px; padding-bottom: 1rem }
-.px2 { padding-left: 16px; padding-left: 1rem; padding-right: 16px; padding-right: 1rem }
+.p2  { padding: 1rem }
+.py2 {padding-top: 1rem; padding-bottom: 1rem }
+.px2 {padding-left: 1rem; padding-right: 1rem }
 
 .p3  { padding: 32px; padding: 2rem }
 .py3 { padding-top: 32px; padding-top: 2rem; padding-bottom: 32px; padding-bottom: 2rem }
