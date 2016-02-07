@@ -1,0 +1,8 @@
+name:"Jimmy's Portfolio"
+description:"A product design portfolio"
+author:"jyngo"
+
+url:"http://localhost:4000"
+
+exclude:[README.md]
+permalink: /:title
