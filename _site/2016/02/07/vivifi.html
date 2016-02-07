@@ -1,0 +1,52 @@
+<h3 id="vivifi">Vivifi</h3>
+<p>##Building an efficient method for sexual assaults to be processed</p>
+
+<p>Problem</p>
+
+<p>The processing of a sexual assault case involves many moving parts. First, there is the SANE(Sexual Assault Nurse Examiner) Nurse that examines the victim to begin the case. The results of the examination are then sealed inside of Sexual Assault Kit(SAK). These kits then go through a process of medical examination that may help identify the assailant and provide evidence in a trial. After the SAK gets processed, the case is assigned to an investigator to pursue the case. The investigator finds the assailant, presents them in trial, and concludes the case. Sounds great, right?</p>
+
+<p>However, due to funding issues, most cases never get pursued. Most of the time, SAKs don’t even reach the examination facilities and thus an investigator can never really begin his work. </p>
+
+<p>Solution</p>
+
+<p>Because the crux of this problem is the transfer of information, we tried to make it simple for the case information to be as transient as possible.</p>
+
+<p>[insert picture of dashboard here]</p>
+
+<p>Creating a case A case usually begins with a SANE Nurse, so we let a SANE Nurse start the case with the victim’s information. However, the SANE Nurse has some legal limitations:</p>
+
+<p>They cannot edit the case after it has been submitted
+They cannot view other cases</p>
+
+<p>Because they only have instance to submit the case, we have a “Review” button to ensure that they entered the information correctly. </p>
+
+<p>We have a “User Type” that ensures that a “SANE Nurse” type may only create new records. </p>
+
+<p>Investigating a case After a case has been submitted, the case shows up on the dashboard(which only the investigator may see). The investigator can then proceed to look through each case and fill out the information they’ve collected. </p>
+
+<p>Once an investigator presses “Complete”, an automatic email is sent to the victim that updates them on the progress of their case.</p>
+
+<p>Conclusion We built this on a snowy weekend in Tahoe so it’s still a small application, but we think we tackled some of the major hurdles:</p>
+
+<p>Investigators are unable to proceed the case due to SAK backlogs
+Victims never hear back about any updates on their case</p>
+
+<p>Lessons Learned</p>
+
+<p>Generalists are awesome</p>
+
+<p>I learned so much working with everyone on this project. The biggest takeaway was understanding the power of generalists. When everyone understands a little of product management, technical constraints, and user experience, execution becomes almost frictionless. </p>
+
+<p>UX Freebies</p>
+
+<p>We had some disagreements about using MEAN stack vs Rails, but ultimately chose MEAN. Coming from working with Rails, I now understand why we chose MEAN. Take a look at this interaction:</p>
+
+<p>[insert gif here]</p>
+
+<p>Because MEAN processes most of it’s information client-side, we can minimize clicks to help users achieve their goals easier. With our heavy focus on input fields, choosing MEAN enabled us to make a simpler application with less flows.</p>
+
+<p>Clear Goals</p>
+
+<p>[insert user stories here]</p>
+
+<p>By utilizing user stories to tackle product, we can easily piecemeal everyone’s objectives. There’s little question on what someone should do next.</p>
