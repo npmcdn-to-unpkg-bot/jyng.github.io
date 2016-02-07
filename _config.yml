@@ -1,8 +1,8 @@
 name: "Jimmy Young, Product Designer"
-description: "A product design portfolio"
 author: "jyngo"
 
 url: "http://localhost:4000"
 
 exclude: [README.md,Rakefile]
 paginate: 16
+permalink : /:title
