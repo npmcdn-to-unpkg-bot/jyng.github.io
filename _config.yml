@@ -5,4 +5,3 @@ author:"jyngo"
 url:"http://localhost:4000"
 
 exclude:[README.md]
-permalink: /:title
