@@ -299,6 +299,7 @@ h6, .h6 { font-size: 14px; font-size: .875rem }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: .2em; }
+.lh-header {line-height: 1.2}
 
 .left-align   { text-align: left }
 .center       { text-align: center }
@@ -476,6 +477,30 @@ h6, .h6 { font-size: 14px; font-size: .875rem }
 
 }
 
+
+
+.mxn1 { margin-left: -8px; margin-left: -.5rem; margin-right: -8px; margin-right: -.5rem; }
+.mxn2 { margin-left: -16px; margin-left: -1rem; margin-right: -16px; margin-right: -1rem; }
+.mxn3 { margin-left: -32px; margin-left: -2rem; margin-right: -32px; margin-right: -2rem; }
+.mxn4 { margin-left: -64px; margin-left: -4rem; margin-right: -64px; margin-right: -4rem; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+.p1  {padding: .5rem }
+.py1 {padding-top: .5rem;; padding-bottom: .5rem }
+.px1 { padding-left: .5rem; padding-right: .5rem }
+
+.p2  {padding: 1rem }
+.py2 {padding-top: 1rem; padding-bottom: 1rem }
+.px2 {padding-left: 1rem; padding-right: 1rem }
+
+.p3  {padding: 2rem }
+.py3 {padding-top: 2rem; padding-bottom: 2rem }
+.px3 { padding-left: 2rem; padding-right: 2rem }
+
+.p4  {padding: 4rem }
+.py4 { padding-top: 4rem; padding-bottom: 4rem }
+.px4 { padding-left: 4rem; padding-right: 4rem }
+
 @media (min-width: 40em) {
 
   .sm-p1  { padding:        .5rem }
@@ -533,28 +558,6 @@ h6, .h6 { font-size: 14px; font-size: .875rem }
   .lg-px4 { padding-left:        4rem; padding-right:        4rem }
 
 }
-
-.mxn1 { margin-left: -8px; margin-left: -.5rem; margin-right: -8px; margin-right: -.5rem; }
-.mxn2 { margin-left: -16px; margin-left: -1rem; margin-right: -16px; margin-right: -1rem; }
-.mxn3 { margin-left: -32px; margin-left: -2rem; margin-right: -32px; margin-right: -2rem; }
-.mxn4 { margin-left: -64px; margin-left: -4rem; margin-right: -64px; margin-right: -4rem; }
-
-.mx-auto { margin-left: auto; margin-right: auto; }
-.p1  { padding: 8px; padding: .5rem }
-.py1 { padding-top: 8px; padding-top: .5rem;; padding-bottom: .5rem }
-.px1 { padding-left: 8px; padding-left: .5rem; padding-right: .5rem }
-
-.p2  { padding: 1rem }
-.py2 {padding-top: 1rem; padding-bottom: 1rem }
-.px2 {padding-left: 1rem; padding-right: 1rem }
-
-.p3  { padding: 32px; padding: 2rem }
-.py3 { padding-top: 32px; padding-top: 2rem; padding-bottom: 32px; padding-bottom: 2rem }
-.px3 { padding-left: 32px; padding-left: 2rem; padding-right: 32px; padding-right: 2rem }
-
-.p4  { padding: 64px; padding: 4rem }
-.py4 { padding-top: 64px; padding-top: 4rem; padding-bottom: 64px; padding-bottom: 4rem }
-.px4 { padding-left: 64px; padding-left: 4rem; padding-right: 64px; padding-right: 4rem }
 /* Basscss Utility Responsive States */
 
 .sm-show, .md-show, .lg-show {
