@@ -353,7 +353,7 @@ h6, .h6 { font-size: 14px; font-size: .875rem }
 .m4  { margin: 64px; margin: 4rem }
 .mt4 { margin-top: 64px; margin-top: 4rem }
 .mr4 { margin-right: 64px; margin-right: 4rem }
-.mb4 { margin-bottom: 64px; margin-bottom: 4rem }
+.mb4 {margin-bottom: 4rem }
 .ml4 { margin-left: 64px; margin-left: 4rem }
 
 @media (min-width: 40em) {
@@ -929,11 +929,8 @@ a {
 
 a:hover {
   text-decoration: none;
-  background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
-  background-size: 600% 600%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-   -webkit-animation: AnimationName 3s ease-out infinite;
+  color:white;
+  background-color: #333;
   }
 
   @-webkit-keyframes AnimationName {
@@ -1279,10 +1276,7 @@ input[type=range] {
 }
 .border:hover {
   text-decoration: none;
-  border-image: -webkit-linear-gradient(left, #b134bf, #3bb1be, #E1CC90, #FF945C, #EC008C);
-  border-image: -o-linear-gradient(left, #b134bf, #3bb1be, #E1CC90, #FF945C, #EC008C);
-  border-image: linear-gradient(left, #b134bf, #3bb1be, #E1CC90, #FF945C, #EC008C);
-  border-image-slice: 1;
+  border-color:#444;
   }
 
 .border-top {
