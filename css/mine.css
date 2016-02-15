@@ -10,3 +10,8 @@ a {
 h1, .h1 {
   font-size:48px;
 }
+
+.img-shadow {
+  box-shadow:4px 4px 30px rgba(0,0,0,0.3);
+
+}
