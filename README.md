@@ -1,1 +1,2 @@
-Built on top of Basscraft
+#Product Design Portfolio.
+##Using: Basscss, Heather, Animate.css

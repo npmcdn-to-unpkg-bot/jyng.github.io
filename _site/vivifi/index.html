@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jimmy Young, Product Designer</title>
+  <meta name="author" content="jyngo">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="http://localhost:4000/css/posts.css" />
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+<body>
+
+<div class="wrap">
+<header class="mb">
+  <h1 class="h3 m-0"><a class="gray" href="http://localhost:4000">Jimmy Young, Product Designer</a></h1>
+  <p></p>
+</header>
+
+<main>
+<article class="post">
+  <h1>Vivifi</h1>
+  <h1 id="building-a-better-solution-for-sexual-assault-cases">Building a better solution for sexual assault cases</h1>
+
+<h2 id="problem">Problem</h2>
+
+<p>The processing of a sexual assault case involves many moving parts. First, there is the SANE(Sexual Assault Nurse Examiner) Nurse that examines the victim to begin the case. The results of the examination are then sealed inside of Sexual Assault Kit(SAK).</p>
+
+<p>These kits then go through a process of medical examination that may help identify the assailant and provide evidence in a trial. After the SAK gets processed, the case is assigned to an investigator to pursue the case. The investigator finds the assailant, presents them in trial, and concludes the case. Sounds great, right?</p>
+
+<p>However, due to funding issues, most cases never get pursued. Most of the time, SAKs don’t even reach the examination facilities and thus investigators rarely have adequate materials to pursue a case.</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>Because the crux of this problem is the transfer of information, we tried to make it simple for the case information to be as transient as possible.</p>
+
+<p>[insert picture of dashboard here]</p>
+
+<h3 id="creating-a-case">Creating a case</h3>
+<p>A case usually begins with a SANE Nurse, so we let a SANE Nurse start the case with the victim’s information. However, the SANE Nurse has some legal limitations:</p>
+
+<ul>
+  <li>
+    <p>They cannot edit the case after it has been submitted</p>
+  </li>
+  <li>
+    <p>They cannot view other cases</p>
+  </li>
+</ul>
+
+<p>Because they only have instance to submit the case, we have a “Review” button to ensure that they entered the information correctly. </p>
+
+<p>We have a “User Type” that ensures that a “SANE Nurse” may only create new records. </p>
+
+<h3 id="investigating-a-case">Investigating a case</h3>
+<p>After a case has been submitted, the case shows up on the dashboard(which only the investigator may see). The investigator can then proceed to look through each case and fill out the information they’ve collected. </p>
+
+<p>Once an investigator presses “Complete”, an automatic email is sent to the victim that updates them on the progress of their case.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>We built this on a snowy weekend in Tahoe so it’s still a small application, but we think we conquered two of the biggest obstacles:</p>
+
+<ul>
+  <li>
+    <p><strong>Investigators are unable to proceed the case due to SAK backlogs</strong></p>
+  </li>
+  <li>
+    <p><strong>Victims never hear back about any updates on their case</strong></p>
+  </li>
+</ul>
+
+<h2 id="lessons-learned">Lessons Learned</h2>
+
+<h3 id="generalists-are-awesome">Generalists are awesome</h3>
+
+<p>I learned so much working with everyone on this project. The biggest takeaway was understanding the power of generalists. When everyone understands a little of product management, technical constraints, and user experience, execution becomes almost frictionless. </p>
+
+<h3 id="ux-freebies">UX Freebies</h3>
+
+<p>We had some disagreements about using MEAN stack vs Rails, but ultimately chose MEAN. Coming from working with Rails, I now understand why we chose MEAN. Take a look at this interaction:</p>
+
+<p>[insert gif here]</p>
+
+<p>Because MEAN processes most of it’s information client-side, we can minimize clicks to help users achieve their goals easier. With our heavy focus on input fields, choosing MEAN enabled us to make a simpler application with less flows.</p>
+
+<h3 id="clear-goals">Clear Goals</h3>
+
+<p>By utilizing user stories to tackle product, we can easily piecemeal everyone’s objectives. There’s little question on what someone should do next.</p>
+
+<p>[insert user stories here]</p>
+
+</article>
+</main>
