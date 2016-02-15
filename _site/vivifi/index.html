@@ -36,26 +36,32 @@
 
 <p>Because the crux of this problem is the transfer of information, we tried to make it simple for the case information to be as transient as possible.</p>
 
-<p><img src="../assets/vivifi_sc.png" alt="vivifi dashboard" /></p>
+<p><img src="../assets/vivifi_dashboard.png" alt="vivifi dashboard" /></p>
 
-<h3 id="creating-a-case">Creating a case</h3>
+<h3 id="creating-a-record">Creating a record</h3>
 <p>A case usually begins with a SANE Nurse, so we let a SANE Nurse start the case with the victim’s information. However, the SANE Nurse has some legal limitations:</p>
 
 <ul>
   <li>
-    <p>They cannot edit the case after it has been submitted</p>
+    <p>They cannot edit the record after it has been submitted</p>
   </li>
   <li>
-    <p>They cannot view other cases</p>
+    <p>They cannot view other records</p>
   </li>
 </ul>
 
-<p>Because they only have instance to submit the case, we have a “Review” button to ensure that they entered the information correctly. </p>
+<p>To account for these limitations, we decided to separate “SANE Nurse” and “Investigator” types where SANE Nurses can only create new records and Investigators can create and view records.</p>
 
-<p>We have a “User Type” that ensures that a “SANE Nurse” may only create new records. </p>
+<p><img src="../assets/vivifi_create.png" alt="vivifi create" /></p>
+
+<p>Because SANE Nurses can only create new records, we have a “Review” button to help them confirm that they’ve entered the information accurately.</p>
+
+<p><img src="../assets/vivifi_review.png" alt="vivifi review" /></p>
 
 <h3 id="investigating-a-case">Investigating a case</h3>
 <p>After a case has been submitted, the case shows up on the dashboard(which only the investigator may see). The investigator can then proceed to look through each case and fill out the information they’ve collected. </p>
+
+<p><img src="../assets/vivifi_victim.png" alt="vivifi victim" /></p>
 
 <p>Once an investigator presses “Complete”, an automatic email is sent to the victim that updates them on the progress of their case.</p>
 
@@ -67,7 +73,7 @@
     <p><strong>Investigators are unable to proceed the case due to SAK backlogs</strong></p>
   </li>
   <li>
-    <p><strong>Victims never hear back about any updates on their case</strong></p>
+    <p><strong>Victims rarely hear back about any updates on their case</strong></p>
   </li>
 </ul>
 
