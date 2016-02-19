@@ -11,11 +11,16 @@ a {
   font-size:48px;
 }
 
+@media(min-width:40rem){
+    .sm-h0 {font-size:48px;}
+  }
+
+
 .bold {
   font-weight:600;
 }
 
 .img-shadow {
-  box-shadow:4px 4px 30px rgba(0,0,0,0.3);
+  box-shadow:4px 4px 50px rgba(0,0,0,0.1);
 
 }
