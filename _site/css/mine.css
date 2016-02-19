@@ -11,6 +11,10 @@ h1, .h1 {
   font-size:48px;
 }
 
+.bold {
+  font-weight:600;
+}
+
 .img-shadow {
   box-shadow:4px 4px 30px rgba(0,0,0,0.3);
 
