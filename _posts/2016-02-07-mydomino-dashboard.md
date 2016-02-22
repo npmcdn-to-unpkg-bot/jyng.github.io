@@ -9,28 +9,24 @@ Domino is a committed to helping people contribute to a more sustainable planet 
 
 ##Problem
 
-After a concierge makes the recommendations, it’s extremely difficult to help homeowners achieve those recommendations. How would homeowners communicate that they’ve completed recommendations?
+After a concierge makes the recommendations, it’s extremely difficult to help homeowners achieve those recommendations. How would homeowners communicate that they’ve completed recommendations? How would concierges help homeowners succeed in switching to renewable energy.
 
 ##Concept
 
-We decided to build a dashboard that would allow users to revisit their recommendations and check off recommendations they’ve completed. On the surface, the dashboard helps homeowners visualize their progress. On the other side, the dashboard also helps concierges manage and track homeowners’ performance.
+We decided to build a dashboard that would allow users to revisit their recommendations and check off recommendations they’ve completed. On the surface, the dashboard helps homeowners visualize their progress. On the other side, the dashboard also helps concierges become more efficient in managing homeowner activity.
 
 
 ###Iteration 1
 
-v1.The design began with using an Amazon iframe to see how users would respond to this new product. 
+v1.The design began with an Amazon iframe to test how users would respond to this new product.
 
-v2. I then moved the design to align better with our brand and provide a consistent experience across all our user interactions.
-
+v2. I then designed it to better align with our brand and provide a consistent experience on our digital platform.
 ##Testing & Validation
+
+I did 5 unmoderated interviews to test for validation and usability. From testing, we realized that our recommendations split into two categories: Actions and Products.
 
 ###Iteration 2
 
-We realized that our recommendations split into two categories: Actions and Products.
-
-###Focusing on the Concierge
-
-As we completed our outward facing product, we realized that the dashboard offered limited value to concierges. 
 
 ##Result
 
