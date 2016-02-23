@@ -34,4 +34,4 @@ I did 5 unmoderated interviews to test for validation and usability. From testin
 
 Taking over development makes a better relationship between design and development
 
-Using Sketch and Zeplin required a lot of micromanage work on my part to seamlessly create the design I wanted. By taking over the CSS, I reduced the documentation and workload on engineering.
+Using Sketch and Zeplin required a lot of tedious micromanaging to translate the design mockup into code. So, I figured that I could take upon CSS and  
