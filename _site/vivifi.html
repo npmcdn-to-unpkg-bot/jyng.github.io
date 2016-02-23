@@ -9,6 +9,7 @@
 
   <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/apple-touch-icon.png" />
 
+  <link rel="stylesheet" href="http://localhost:4000/css/Basscraft.css" />
   <link rel="stylesheet" href="http://localhost:4000/css/posts.css" />
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
   <link href="https://npmcdn.com/basscss@8.0.0/css/basscss.min.css" rel="stylesheet">
@@ -25,9 +26,19 @@
   <h1>Vivifi</h1>
   <h1 id="building-a-better-solution-for-sexual-assault-case-management">Building a better solution for sexual assault case management</h1>
 
+<div class="col col-6 mt4">
+<h4>My Role</h4>
+<p>I designed the application with CSS and contributed to product decisions.</p>
+</div>
+
+<div class="col col-6 right mt4">
+  <h4>Time</h4>
+  <p>2 days</p>
+</div>
+
 <h2 id="problem">Problem</h2>
 
-<p>The processing of a sexual assault case involves many moving parts. First, there is the SANE (Sexual Assault Nurse Examiner) Nurse that examines the victim to begin the case. The results of the examination are then sealed inside of Sexual Assault Kit(SAK).</p>
+<p>The processing of a sexual assault case involves many moving parts. First, there is the SANE (Sexual Assault Nurse Examiner) Nurse that examines the victim to begin the case. The results of the examination are then sealed inside of Sexual Assault Kit (SAK).</p>
 
 <p>These kits then go through a process of medical examination that may help identify the assailant and provide evidence in a trial. After the SAK gets processed, the case is assigned to an investigator to pursue the case. The investigator finds the assailant, presents them in trial, and concludes the case. Sounds great, right?</p>
 
@@ -35,12 +46,13 @@
 
 <h2 id="solution">Solution</h2>
 
-<p>Because the crux of this problem is the transfer of information, we tried to make it simple for the case information to be as transient as possible.</p>
+<p>The biggest problem was simply transferring information from one person to another. We tried to bridge the gaps between people and make the process as smooth as possible.</p>
 
 <p><img src="../assets/vivifi_dashboard.png" alt="vivifi dashboard" /></p>
 
 <h3 id="creating-a-record">Creating a record</h3>
-<p>A case usually begins with a SANE Nurse, so we let a SANE Nurse start the case with the victim’s information. However, the SANE Nurse has some legal limitations:</p>
+
+<p>SANE Nurses usually begin and create records, but they are not involved in the progress of the record. They have legal limitations on their access:</p>
 
 <ul>
   <li>
@@ -67,7 +79,7 @@
 <p>Once an investigator presses “Complete”, an automatic email is sent to the victim that updates them on the progress of their case.</p>
 
 <h2 id="conclusion">Conclusion</h2>
-<p>We built this on a snowy weekend in Tahoe so it’s still a small application, but we think we conquered two big obstacles:</p>
+<p>We built this on a snowy weekend in Tahoe so it’s still a small application, but we think we overcame two big obstacles:</p>
 
 <ul>
   <li>
@@ -80,9 +92,8 @@
 
 <h2 id="lessons-learned">Lessons Learned</h2>
 
-<h3 id="generalists-are-awesome">Generalists are awesome</h3>
-
-<p>I learned so much working with everyone on this project. The biggest takeaway was understanding the power of generalists. When everyone understands a little of product management, technical constraints, and user experience, execution becomes almost frictionless. </p>
+<h3 id="designing-in-the-browser">Designing in the Browser</h3>
+<p>At first, it was odd that I had not opened Sketch at all, but I soon found out that I was building things faster than I would have in Sketch. I used a <a href="http://tachyons.io/">Tachyons spacing module</a> on top of a <a href="https://bootswatch.com/paper/">Bootstrap theme</a> where Tachyons’ atomic classes really showed big gains without conflicting the Bootstrap CSS (It’s amazing what margin and padding can do alone). I left the project learning how small utility classes reduces the friction for designers to contribute to the actual product.</p>
 
 <h3 id="ux-freebies-from-mean-stack">UX Freebies from MEAN Stack</h3>
 
