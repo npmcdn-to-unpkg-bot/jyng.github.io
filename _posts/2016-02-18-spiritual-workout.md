@@ -2,12 +2,12 @@
 layout: post
 title: Spiritual Workout
 ---
-#Increase paid membership sign-ups for Spiritual Workout
+# Increase paid membership sign-ups for Spiritual Workout
 
-##My Role
+## My Role
 I led summative research to synthesize our findings into insights. I worked closely with our user research lead to design the layout. For the wireframes, I established the visual language amongst the team.
 
-##Problem
+## Problem
 Meeting with our client Steven was a great way for us to understand his business more. He explained that his website just launched and that he wasn't looking for major changes. His main problem was that he wasn't getting as much paid sign-ups as he had hoped for. After the meeting, we saw two main challenges:
 
 1. How might we improve Steven's website without doing major changes?
