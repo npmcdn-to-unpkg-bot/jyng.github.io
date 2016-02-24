@@ -30,14 +30,17 @@ After recognizing our assumptions, we realized that we all assumed that the webs
 
 ###How might we test our assumptions?
 To bridge the gap of our understanding of users, we tested our assumptions in the hopes that we could drive more empathy.
+
 **Assumption 1: Low user engagement**
+
 Website analytics is a great tool to understand more about user engagement. However, we were struggling to understand the jargon in our report. Thankfully, one of our members had a lot of experience with this and was able to break it down for us.
 
 After we all understood the data, I suggested to frame this assumption into a problem statement:
 
-If returning visitors were below 20% and the bounce rate was above 50%, than the site needed a redesign. By utilizing Google Analytics to measure the traffic of the site, we were able to show to the client the source of low user engagement.
+*If returning visitors were **below 20%** and the bounce rate was **above 50%**, than the site needed a redesign. By utilizing Google Analytics to measure the traffic of the site, we were able to show to the client the source of low user engagement.*
 
 **Assumption 2: Difficult to Navigate**
+
 We conducted interviews to gain an understanding of whether if users had the pain points we had assumed.
 
 In all our interviews, users talked passionately about their own experience with spirituality, but when introduced to the site, we heard challenges.
@@ -72,19 +75,19 @@ I designed the "Membership" page, while other members designed the other pages. 
 
 ##Measuring
 
-After completing our designs, we tested our results with users and found that users were eager to sign-up but were still hesitant about paying for Spiritual Workout. We realized here that users to have a clear grasp of benefits before committing to payment. With the fidelity of our wireframes we were able to increase overall sign-ups, but increasing paid sign-ups would require further iterations.
+After completing our designs, we tested our results with users and found that users were eager to sign-up but were still hesitant about paying for Spiritual Workout. We realized that users needed to have a clear grasp of benefits before committing to payment. With the fidelity of our wireframes we were able to increase overall sign-ups, but increasing paid sign-ups would require further iterations.
 
 ##Lessons Learned
 
-###Redesign with a reason
+###Redesign with a Reason
 After presenting website analytics and user research, we were able to show why we needed make our changes to improve the website. We realized that by aligning business goals with user goals, clients can see why redesigns may be necessary.
 
 This insight helped us establish a great working rapport early in the project. This later lead to a lot of client involvement in the design process.
 
-###Understand your tools  
+###Understand Your Tools  
 Before creating user groups, we were actually making personas. We struggled to understand why personas weren't working for us. We later realized that we focused too much on what a persona is rather that what it does.
 
 Thankfully, we were able to modify personas, as an empathy tool, to create what we called a user group.
 
-###Always measure results
+###Always Measure Results
 After completing a project, it's important to understand how your design is impacting users. Unfortunately, our designs are not live, so we couldn't measure our results with existing or new customers. To increase paid sign-ups, the next step would be involve working with the marketing team for further iterations. We could then use web analytics to measure our results.
