@@ -5,7 +5,7 @@ title: MyDomino Dashboard
 
 ## Building a better way to manage homeowners' path towards clean energy
 
-Domino is a committed to helping people contribute to a more sustainable planet while saving them money . Concierges assess homeowners utility habits and recommend clean energy products that can help them save money.
+Domino is a committed to helping people contribute to a more sustainable planet while saving them money. Concierges assess homeowners utility habits and recommend clean energy products that can help them save money.
 
 ## Problem
 
@@ -18,14 +18,18 @@ We decided to build a dashboard that would allow users to revisit their recommen
 
 ### Iteration 1
 
-v1.The design began with an Amazon iframe to test how users would respond to this new product.
+v0.The design began with a simple Amazon iframe on a webpage. As I researched more into Amazon iframe, it actually offered very limited capabilities.
 
-v2. I then designed it to better align with our brand and provide a consistent experience on our digital platform.
-## Testing & Validation
+v1. So, we decided that we would leverage the Amazon API to build our own product database. This would offer a heftier service while providing a consistent brand experience. The first iteration of the dashboard is show below:
 
-I did 5 unmoderated interviews to test for validation and usability. From testing, we realized that our recommendations split into two categories: Actions and Products.
+## User Testing
+
+For the concierge side, testing was simply validating that what I designed was contingent with concierge expectations.
+
+On the homeowner side, I conducted 5 unmoderated user interviews to validate that what we were building provided value to homeowners.
 
 ### Iteration 2
+> # "I don't know when I complete things"
 
 
 ## Result
