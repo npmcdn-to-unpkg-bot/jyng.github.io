@@ -5,5 +5,5 @@ author: "jyngo"
 
 url: "http://jyng.github.io"
 
-exclude:[README.md, Rakefile]
+exclude: [README.md, Rakefile]
 permalink: /:title
