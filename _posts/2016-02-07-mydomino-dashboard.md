@@ -5,7 +5,9 @@ title: MyDomino Dashboard
 
 ## Building a better way to manage homeowners' path towards clean energy
 
-Domino is a committed to helping people contribute to a more sustainable planet while saving them money. Concierges assess homeowners utility habits and recommend clean energy products that can help them save money.
+## About
+Domino is a committed to helping people contribute to a more sustainable planet.
+Concierges assess homeowners utility habits and recommend clean energy products that can help them save money.
 
 ## Problem
 
