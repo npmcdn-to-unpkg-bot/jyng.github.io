@@ -30,10 +30,6 @@ For the concierge side, testing was simply validating that what I designed was c
 
 On the homeowner side, I conducted 5 unmoderated user interviews to validate that what we were building provided value to homeowners.
 
-### Iteration 2
-> # "I don't know when I complete things"
-
-
 ## Result
 
 ## Lessons Learned
