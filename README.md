@@ -7,12 +7,12 @@ This is my current portfolio. I believe a large part of design is communication,
 Built on Github Pages using [Basscss](http://basscss.com). There's some Jekyll here as well (loosely from [Heather](http://jxnblk.com/Heather/)).
 
 ##Giving credit where credit is due
-- [Diana Mounter](www.portfolio.broccolini.com)
+- [Diana Mounter](http://www.portfolio.broccolini.com)
 
-- [Jessica Harllee](www.jessicaharlee.com)
+- [Jessica Harllee](http://www.jessicaharlee.com)
 
-- [Chantal Jandard](www.chantastique.net)
+- [Chantal Jandard](http://www.chantastique.net)
 
-- [Danny Jones](www.yasly.com)
+- [Danny Jones](http://www.yasly.com)
 
-- [Jesse Chase](www.jessecha.se)
+- [Jesse Chase](http://www.jessecha.se)
