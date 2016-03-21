@@ -9,7 +9,7 @@ Built on Github Pages using [Basscss](http://basscss.com). There's some Jekyll h
 ##Giving credit where credit is due
 - [Diana Mounter](http://www.portfolio.broccolini.net)
 
-- [Jessica Harllee](http://www.jessicaharlee.com)
+- [Jessica Harllee](http://www.jessicaharllee.com)
 
 - [Chantal Jandard](http://www.chantastique.net)
 
