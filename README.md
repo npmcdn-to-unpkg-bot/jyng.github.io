@@ -16,3 +16,5 @@ Built on Github Pages using [Basscss](http://basscss.com). There's some Jekyll h
 - [Danny Jones](http://www.yasly.com)
 
 - [Jesse Chase](http://www.jessecha.se)
+
+- [Alex Hollender](http://www.alexhollender.info)
