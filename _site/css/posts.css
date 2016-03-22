@@ -32,9 +32,13 @@ h2, .h2, h3, .h3, h4, h5, h6 {font-size: 24px;}
 h2, .h2 {margin-top:56px;margin-bottom: 8px;}
 h3,.h3{color:gray;
 margin-top:32px;}
+
 p, .p {
   font-size: 18px;
   margin-bottom: 32px;
+}
+ul, ol {
+  font-size:18px;
 }
 small, .small { font-size: 16px; }
 
