@@ -13,7 +13,7 @@ Built on Github Pages using [Basscss](http://basscss.com). There's some Jekyll h
 
 - [Chantal Jandard](http://www.chantastique.net)
 
-- [Danny Jones](http://www.yasly.com)
+- [Aaron Shapiro](http://aaron.mn)
 
 - [Jesse Chase](http://www.jessecha.se)
 

@@ -98,3 +98,6 @@ img {
 .link {
   color:#0074D9;
 }
+.link:hover{
+  color:#7FDBFF;
+}
