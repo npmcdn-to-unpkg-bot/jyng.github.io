@@ -35,7 +35,9 @@ body {
   background-color: black;
   color: white;
 }
-
+.btn:hover{
+  background-color:#333333;
+}
 a {
   text-decoration: none;
   color:inherit;
