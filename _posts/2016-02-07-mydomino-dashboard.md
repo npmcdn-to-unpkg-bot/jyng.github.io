@@ -24,6 +24,8 @@ v0.The design began with a simple Amazon iframe on a webpage. As I researched mo
 
 v1. So, we decided that we would leverage the Amazon API to build our own product database. This would offer a heftier service while providing a consistent brand experience. The first iteration of the dashboard is show below:
 
+
+### Iteration 2
 ## User Testing
 
 For the concierge side, testing was simply validating that what I designed was contingent with concierge expectations.
