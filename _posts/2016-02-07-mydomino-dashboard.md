@@ -20,22 +20,46 @@ We decided to build a dashboard that would allow users to revisit their recommen
 
 ### Iteration 1
 
-v0. The design began with a simple Amazon iframe on a webpage. As I researched more into Amazon iframe, it actually offered very limited capabilities.
+**v0.** --- The design began with a simple Amazon iframe on a webpage. As I researched more into Amazon iframe, it actually offered very limited capabilities.
 
 ![amazon iframe](../assets/dashboard_amazon.png)
 
-v1. So, I decided that we would leverage the Amazon API to build our own product database. This would offer a heftier service while providing a consistent brand experience. The first iteration of the dashboard is shown below:
+**v1.** --- I decided that we would leverage the Amazon API to build our own product database. This would offer a heftier service while providing a consistent brand experience. The first iteration of the dashboard is shown below:
 
-<div class="img-overflow">
+<div class="img-overflow mb2">
 <img src= "../assets/dashboard_first.png">
 </div>
 
-### Exploring the 2nd Iteration
+
 I conducted unmoderated user interviews to gain insight on how our users were using our new product. 2 common pain points came up:
-1. 
 
-## User Testing
+1. It took users a lot of time to understand that there was a "Product" section at the bottom
+2. The affordance that things can be completed wasn't immediately noticeable
 
-For the concierge side, testing was simply validating that what I designed was contingent with concierge expectations.
+*Note: These findings weren't particularly unexpected. At the time, stakeholders felt there were higher priorities. Our team leveraged user testing to support the argument that this product needed more refinement to be assessed for value*
 
-On the homeowner side, I conducted 5 unmoderated user interviews to validate that what we were building provided value to homeowners.
+### Exploring the 2nd Iteration
+<br/>
+![dashboard exploration](../assets/dashboard_exploration.png)
+
+
+### Shipped Design
+Instead of bucketing the items by type, we decided to group them by completion. By relying on binary relationship, users would have an easier time remembering one over the other. The items also now have hover states to better indicate that they're interactive.
+
+![dashboard shipped](../assets/dashboard_shipped.png)
+
+## We didn't forget you, concierges!
+
+Designing the concierge side was a lot quicker due to the immediate access to feedback. I made a small interaction flow for our engineer to build the back-end while I worked on the front-end design.
+
+![dashboard flow](../assets/dashboard_flow.png)
+
+### Using Basscss
+
+When beginning to build the front-end, I noticed a lot of legacy code that was getting lost in our stack. I made an argument to our engineer to switch to using Basscss as I build out our <a href="https://dribbble.com/shots/2549235-MyDomino-Design-System-1a" target="_blank" class="link">design system</a>. At first, I was faced with skeptism, but Basscss was not only  easiy readable, but also extremely quick to build with.
+
+### Concierge-Side
+<br/>
+![concierge center](../assets/concierge_center.png)
+
+###
