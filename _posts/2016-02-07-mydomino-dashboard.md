@@ -60,6 +60,5 @@ When beginning to build the front-end, I noticed a lot of legacy code that was g
 
 ### Concierge-Side
 <br/>
-![concierge center](../assets/concierge_center.png)
 
-###
+![concierge center](../assets/concierge_center.png)
