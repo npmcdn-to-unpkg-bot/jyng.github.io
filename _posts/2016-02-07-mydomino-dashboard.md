@@ -5,6 +5,26 @@ title: MyDomino Dashboard
 
 ## Building a better way to manage homeowners' path towards clean energy
 
+
+
+<div class="col col-6 mt4">
+<h4>Skills Applied</h4>
+<ul class="list-reset h3 mt0">
+<li>CSS</li>
+<li>Visual Design</li>
+<li>Product Design</li>
+</ul>
+</div>
+
+<div class="col col-6 mt4">
+  <h4>Team</h4>
+  <h3 class="mt0 h3 regular"><a href="http://github.com/jcmorrow" target="_blank" class="link">Josh Morrow</a></h3>
+  <h3 class="mt0 h3 regular">Eva</h3>
+  <h3 class="mt0 h3 regular">Rosana</h3>
+</div>
+<div class="clearfix"></div>
+
+
 ## About
 Domino is a committed to helping people contribute to a more sustainable planet.
 Concierges assess homeowners utility habits and recommend clean energy products that can help them save money.
@@ -56,9 +76,11 @@ Designing the concierge side was a lot quicker due to the immediate access to fe
 
 ### Using Basscss
 
-When beginning to build the front-end, I noticed a lot of legacy code that was getting lost in our stack. I made an argument to our engineer to switch to using Basscss as I build out our <a href="https://dribbble.com/shots/2549235-MyDomino-Design-System-1a" target="_blank" class="link">design system</a>. At first, I was faced with skeptism, but Basscss was not only  easiy readable, but also extremely quick to build with.
+When beginning to build the front-end, I noticed a lot of legacy code that was getting lost in our stack. I made an argument to our engineer to switch to using Basscss as I build out our <a href="https://dribbble.com/shots/2549235-MyDomino-Design-System-1a" target="_blank" class="link">design system</a>. At first, I was faced with skeptism, but Basscss was not only  easily readable, but also extremely quick to build with.
 
 ### Concierge-Side
 <br/>
 
 ![concierge center](../assets/concierge_center.png)
+
+![dashboard statistics](../assets/mydomino_statistics.png)
