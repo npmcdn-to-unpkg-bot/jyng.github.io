@@ -10,7 +10,6 @@ title: MyDomino Dashboard
 <div class="col col-6 mt4">
 <h4>Skills Applied</h4>
 <ul class="list-reset h3 mt0">
-<li>CSS</li>
 <li>Visual Design</li>
 <li>Product Design</li>
 </ul>
