@@ -105,7 +105,7 @@ img {
   background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: AnimationName 15s linear infinite;
+  -webkit-animation: AnimationName 10s linear infinite;
 }
 
 @-webkit-keyframes AnimationName {
