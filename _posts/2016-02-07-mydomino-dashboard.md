@@ -8,7 +8,7 @@ title: MyDomino Dashboard
 
 
 <div class="col col-6 mt4">
-<h4>Skills Applied</h4>
+<h5>Skills Applied</h5>
 <ul class="list-reset h3 mt0">
 <li>Visual Design</li>
 <li>Product Design</li>
@@ -16,7 +16,7 @@ title: MyDomino Dashboard
 </div>
 
 <div class="col col-6 mt4">
-  <h4>Team</h4>
+  <h5>Team</h5>
   <h3 class="mt0 h3 regular"><a href="http://github.com/jcmorrow" target="_blank" class="link">Josh Morrow</a></h3>
   <h3 class="mt0 h3 regular">Eva</h3>
   <h3 class="mt0 h3 regular">Rosana</h3>
