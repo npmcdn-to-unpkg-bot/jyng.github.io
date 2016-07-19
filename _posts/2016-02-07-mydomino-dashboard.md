@@ -7,7 +7,7 @@ title: MyDomino Dashboard
 
 
 
-<div class="col col-6 mt4">
+<!-- <div class="col col-6 mt4">
 <h5>Skills Applied</h5>
 <ul class="list-reset h3 mt0">
 <li>Visual Design</li>
@@ -21,8 +21,9 @@ title: MyDomino Dashboard
   <h3 class="mt0 h3 regular">Eva</h3>
   <h3 class="mt0 h3 regular">Rosana</h3>
 </div>
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 
+<div class="mb4"></div>
 
 ## About
 Domino is a committed to helping people contribute to a more sustainable planet.

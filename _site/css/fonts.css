@@ -1,17 +1,13 @@
 @font-face {
-  font-family: 'CooperHewitt';
-	src: url('../fonts/CooperHewitt-Book.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/CooperHewitt-Book.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/CooperHewitt-Book.svg') format('svg'); /* Legacy iOS */
-	}
+    font-family: 'Aileron-Regular';
+    src:url('../fonts/Aileron-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'CooperHewitt-Medium';
-	src: url('../fonts/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/CooperHewitt-Medium.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/CooperHewitt-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../fonts/CooperHewitt-Medium.svg') format('svg'); /* Legacy iOS */
-	}
+    font-family: 'Aileron-SemiBold';
+    src:url('../fonts/Aileron-SemiBold.otf');
+    font-weight: normal;
+    font-style: normal;
 }
