@@ -4,6 +4,7 @@ author: "jyngo"
 
 # url: "http://localhost:4000"
 url: "http://jyng.github.io"
+highlighter: pygments # or rouge or null
 
-exclude: [README.md, Rakefile]
+exclude: [README.md, Rakefile, "node_modules", "gulpfile.js", "package.json"]
 permalink: /:title
