@@ -3,7 +3,7 @@ layout: post
 title: MyDomino Dashboard
 ---
 
-## Building a better way to manage homeowners' path towards clean energy
+# Building a better way to manage homeowners' path towards clean energy
 
 
 
