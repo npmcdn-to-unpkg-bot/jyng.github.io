@@ -1,9 +1,15 @@
-name: "Jimmy Young, Product Designer"
-description: "Product Designer"
-author: "jyngo"
+title: "Jimmy's Portfolio"
+description: > # this means to ignore newlines until "baseurl:"
+  Hello, I'm Jimmy Young. Digital Product Designer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://jyngo.me/
 
-# url: "http://localhost:4000"
-url: "http://jyng.github.io"
+twitter_username: _jyngo
+github_username: jyngo
+dribbble_username: jyngo
 
-exclude: [README.md, Rakefile]
 permalink: /:title
+
+
+#Build settings
+markdown: kramdown
